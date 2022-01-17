@@ -1,0 +1,7 @@
+cv2
+os
+datetime
+numpy
+face_recognition
+cmake
+dlib
