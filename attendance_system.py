@@ -1,6 +1,6 @@
 import cv2
-import numpy as np
 import face_recognition
+import numpy as np
 import os
 from datetime import datetime
 
@@ -17,7 +17,7 @@ print(classNames)
 def findEncodings(imagelist):
     encodelist=[]
     for img in imagelist:
-        img=cv2.cvtColor(img,cv2.cvtCOLOR_BGR2RGB)
+        img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
         encode=face_recognition.face_encodings(img)[0]
         encodelist.append(encode)
     return encodelist
