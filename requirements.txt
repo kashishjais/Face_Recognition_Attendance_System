@@ -2,7 +2,8 @@ cv2
 os
 datetime
 numpy
+dlib
 face_recognition
 cmake
-dlib
-cmake
+
+
